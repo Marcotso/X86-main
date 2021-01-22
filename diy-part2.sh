@@ -14,3 +14,4 @@
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 git clone https://github.com/jefferymvp/luci-app-koolproxyR package/luci-app-koolproxyR
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
+rm -rf package/lean/luci-app-jd-dailybonus && mv package/luci-app-jd-dailybonus package/lean/
